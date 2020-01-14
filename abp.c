@@ -331,6 +331,7 @@ main()
 
 terminate:
     printf(" Simulator terminated at time %f\n after sending %d msgs from layer5\n", time, nsim);
+    system("pause");
 }
 
 init() /* initialize the simulator */
